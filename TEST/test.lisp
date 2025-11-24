@@ -1,0 +1,8 @@
+(format t "donne la valeur de A: ")
+(setq A (read))
+(format t "donne la valeur de B: ")
+(setq B (read))
+(setq S (+ A B))
+(setq M (* A B))
+(format t "La somme de ~a et ~a est: ~a ~%" A B S)
+(format t "Le produit de ~A et ~A est: ~A ~%" A B M)
